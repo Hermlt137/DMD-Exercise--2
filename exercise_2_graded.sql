@@ -3,6 +3,7 @@ CREATE TABLE doctors (
     name TEXT NOT NULL,
     specialization TEXT NOT NULL
 );
+
 CREATE TABLE patients (
     patient_id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
